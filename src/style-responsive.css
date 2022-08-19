@@ -98,6 +98,14 @@
 }
 
 @media (min-width: 360px) {
+    .mobile-img {
+        max-width: 360px;
+    }
+
+    .text-container {
+        max-width: 360px;
+    }
+
     .header-mobile {
         margin-top: 30px;
     }
@@ -115,7 +123,7 @@
     p {
         margin: 20px;
         font-size: 14px;
-        margin-inline: 50px;
+        margin-inline: 40px;
         text-align: center;
     }
 
@@ -146,13 +154,12 @@
     }
 }
 
-@media (min-width: 450px) {
-    p {
-        margin-inline: 100px;
-    }
-}
-
 @media (max-width: 600px) {
+
+    .text-container {
+        padding-bottom: 10px;
+    }
+
     .desktop-img {
         display: none;
     }
@@ -229,7 +236,7 @@
     }
 
     .text-container {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 }
 
