@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="This is a solution for the Base Apparel coming soon page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. Coded by Kitti Horvath." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="src/style-responsive.css">
+  <link rel="stylesheet" href="src/style-error-icon.css">
+
+
+  <title>Base Apparel coming soon page - Frontend Mentor challenge - Coded by Kitti Horvath</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div class="header-mobile">
+        <img src="src/images/logo.svg" class="base-apparel-logo-mobile" alt="website logo" />
+      </div>
+      <div class="responsive-mobile-image">
+        <img src="src/images/hero-mobile.jpg" class="mobile-img" alt="website image" />
+      </div>
+      <div class="text-container background-image" style="background-image: url('src/images/bg-pattern-desktop.svg');">
+        <img src="src/images/logo.svg" class="base-apparel-logo" alt="website logo" />
+        <h1 class="header"><span class="header-color">we're</span><br />coming<br />soon</h1>
+
+        <p>Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch
+          deals.</p>
+
+        <form>
+          <input type="email" name="email" id='email' placeholder="Email Address" class="form-email" required>
+          <span class="error-icon" id="error-icon"></span>
+          <button class="form-button" id="form-button"><img src="src/images/icon-arrow.svg" class="arrow-img"
+              alt="arrow icon"></button>
+          <div id="email-error-message"></div>
+          <div id="email-valid-message"></div>
+        </form>
+      </div>
+      <img src="src/images/hero-desktop.jpg" class="desktop-img" alt="website image" />
+    </main>
+  </div>
+  <div class="footer">
+    <hr class="desktop-hr" />
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Horv-Kitty">Kitti Horvath</a>.
+    </footer>
+  </div>
+  <script src="src/javascript.js"></script>
+</body>
+
+</html>

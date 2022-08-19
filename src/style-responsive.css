@@ -1,0 +1,448 @@
+@media (max-width: 250px) {
+
+    .header-mobile {
+        margin: 30px 0px 0px 10px;
+    }
+
+    .base-apparel-logo-mobile {
+        width: 100px;
+    }
+
+    .header {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p {
+        margin: 20px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .form-email {
+        padding: 8px 10px 8px 10px;
+        font-size: 12px;
+    }
+
+    .form-button {
+        display: none;
+    }
+
+    footer {
+        font-size: 9px;
+    }
+
+    #email-error-message {
+        font-size: 10px;
+        margin-left: 40px;
+    }
+
+    #email-valid-message {
+        font-size: 10px;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 250px) {
+
+    .header-mobile {
+        margin: 30px 0px 0px 10px;
+    }
+
+    .base-apparel-logo-mobile {
+        width: 100px;
+    }
+
+    .header {
+        margin: 50px 20px 20px 20px;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    p {
+        margin: 20px;
+        font-size: 14px;
+        text-align: center;
+        margin-inline: 20px
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .form-email {
+        padding: 10px 15px 10px 15px;
+        font-size: 12px;
+    }
+
+    .form-button {
+        padding: 7px 20px 7px 25px;
+        position: relative;
+        right: 48px;
+        top: 5px;
+    }
+
+    footer {
+        font-size: 9px;
+    }
+
+    #email-error-message {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    #email-valid-message {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 360px) {
+    .header-mobile {
+        margin-top: 30px;
+    }
+
+    .base-apparel-logo-mobile {
+        width: 100px;
+    }
+
+    .header {
+        margin: 50px 20px 20px 20px;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    p {
+        margin: 20px;
+        font-size: 14px;
+        margin-inline: 50px;
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .form-email {
+        padding: 10px 25px 10px 25px;
+        font-size: 14px;
+    }
+
+    .form-button {
+        padding: 7px 25px 7px 30px;
+        position: relative;
+        right: 48px;
+        top: 5px;
+    }
+
+    #email-error-message {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    #email-valid-message {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 450px) {
+    p {
+        margin-inline: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .desktop-img {
+        display: none;
+    }
+
+    .base-apparel-logo {
+        display: none;
+    }
+
+    .mobile-img {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 600px) {
+    .text-container {
+        max-width: 600px;
+    }
+
+    .desktop-img {
+        max-width: 600px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .header {
+        margin-top: 80px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-inline: 120px;
+    }
+
+    .form-email {
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 15px 100px 15px 30px;
+        font-size: 16px;
+    }
+
+    .form-button {
+        padding: 13px 40px 13px 45px;
+        position: relative;
+        right: 55px;
+        top: 4.5px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+
+    #email-error-message {
+        margin-left: -60px;
+    }
+
+    #email-valid-message {
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container {
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .text-container {
+        max-width: 100%;
+    }
+
+    .desktop-img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .base-apparel-logo {
+        margin-left: 50px;
+        margin-top: 70px;
+        width: 150px;
+    }
+
+    .header {
+        margin-top: 80px;
+        margin-left: 50px;
+        font-size: 54px;
+        text-align: start;
+    }
+
+    p {
+        text-align: start;
+        margin: 20px 30px 0px 50px;
+        font-size: 16px;
+    }
+
+    form {
+        text-align: start;
+    }
+
+    .form-email {
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 20px 20px 20px 30px;
+        font-size: 16px;
+    }
+
+    .form-button {
+        padding: 18px 45px 18px 50px;
+        position: relative;
+        right: 80px;
+        top: 4.5px;
+    }
+
+    #email-error-message {
+        margin-left: 83px;
+    }
+
+    #email-valid-message {
+        margin-left: 83px;
+    }
+}
+
+
+
+@media (min-width: 1050px) {
+    .base-apparel-logo {
+        margin-top: 70px;
+        margin-left: 60px;
+        width: 150px;
+    }
+
+    .header {
+        margin-top: 80px;
+        margin-left: 60px;
+        font-size: 54px;
+        text-align: start;
+    }
+
+    p {
+        text-align: start;
+        margin: 20px 80px 0px 60px;
+        font-size: 16px;
+    }
+
+    form {
+        text-align: start;
+    }
+
+    .form-email {
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 20px 50px 20px 30px;
+        font-size: 16px;
+    }
+
+    .form-button {
+        padding: 18px 45px 18px 50px;
+        position: relative;
+        right: 58px;
+        top: 4.5px;
+    }
+
+    #email-error-message {
+        margin-left: 83px;
+    }
+
+    #email-valid-message {
+        margin-left: 83px;
+    }
+}
+
+@media (min-width: 1100px) {
+    p {
+        margin-right: 120px;
+
+    }
+}
+
+@media (min-width: 1150px) {
+    p {
+        margin-right: 180px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .base-apparel-logo {
+        margin-left: 100px;
+        margin-top: 70px;
+        width: 150px;
+    }
+
+    .header {
+        margin-top: 120px;
+        margin-left: 100px;
+        font-size: 62px;
+        text-align: start;
+    }
+
+    p {
+        text-align: start;
+        margin: 5px 110px 0px 100px;
+        font-size: 16px;
+    }
+
+    .form-email {
+        margin-top: 20px;
+        margin-left: 100px;
+        padding: 20px 140px 20px 30px;
+        font-size: 16px;
+    }
+
+    ::placeholder {
+        text-align: start;
+    }
+
+    .form-button {
+        padding: 18px 45px 18px 50px;
+        position: relative;
+        right: 58px;
+        top: 4.5px;
+    }
+
+    #email-error-message {
+        margin-left: 130px;
+    }
+
+    #email-valid-message {
+        margin-left: 130px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .base-apparel-logo {
+        margin-left: 170px;
+        margin-top: 70px;
+        width: 160px;
+    }
+
+    .header {
+        margin-left: 170px;
+        font-size: 62px;
+    }
+
+    p {
+        margin: 0px 210px 20px 170px;
+    }
+
+    .form-email {
+        margin-left: 170px;
+        padding: 20px 200px 20px 30px;
+        font-size: 16px;
+    }
+
+    .form-button {
+        padding: 18px 45px 18px 50px;
+        position: relative;
+        right: 90px;
+        top: 4px;
+    }
+
+    #email-error-message {
+        margin-left: 200px;
+    }
+
+    #email-valid-message {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 1500px) {
+    p {
+        margin-right: 270px;
+    }
+
+}

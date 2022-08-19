@@ -1,0 +1,179 @@
+@media (max-width: 600px) {
+    #error-icon {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    #error-icon {
+        left: 345px;
+        top: 453px
+    }
+}
+
+@media (min-width: 650px) {
+    #error-icon {
+        left: 370px;
+        top: 453px
+    }
+}
+
+@media (min-width: 700px) {
+    #error-icon {
+        left: 390px;
+        top: 453px
+    }
+}
+
+@media (min-width: 750px) {
+    #error-icon {
+        left: 405px;
+        top: 453px
+    }
+}
+
+@media (min-width: 800px) {
+    #error-icon {
+        left: 445px;
+        top: 453px
+    }
+}
+
+@media (min-width: 850px) {
+    #error-icon {
+        left: 465px;
+        top: 453px
+    }
+}
+
+@media (min-width: 900px) {
+    #error-icon {
+        left: 485px;
+        top: 453px
+    }
+}
+
+@media (min-width: 950px) {
+    #error-icon {
+        left: 515px;
+        top: 453px
+    }
+}
+
+@media (min-width: 1000px) {
+    #error-icon {
+        left: 170px;
+        top: 552px
+    }
+}
+
+@media (min-width: 1050px) {
+    #error-icon {
+        left: 220px;
+        top: 552px
+    }
+}
+
+@media (min-width: 1100px) {
+    #error-icon {
+        left: 220px;
+        top: 552px
+    }
+}
+
+@media (min-width: 1150px) {
+    #error-icon {
+        left: 220px;
+        top: 552px
+    }
+}
+
+@media (min-width: 1200px) {
+    #error-icon {
+        left: 350px;
+        top: 576px
+    }
+}
+
+@media (min-width: 1250px) {
+    #error-icon {
+        left: 350px;
+        top: 576px
+    }
+}
+
+@media (min-width: 1300px) {
+    #error-icon {
+        left: 350px;
+        top: 576px
+    }
+}
+
+@media (min-width: 1350px) {
+    #error-icon {
+        left: 350px;
+        top: 576px
+    }
+}
+
+@media (min-width: 1385px) {
+    #error-icon {
+        left: 350px;
+        top: 546px
+    }
+}
+
+@media (min-width: 1400px) {
+    #error-icon {
+        left: 460px;
+        top: 592px
+    }
+}
+
+@media (min-width: 1450px) {
+    #error-icon {
+        left: 460px;
+        top: 592px
+    }
+}
+
+@media (min-width: 1500px) {
+    #error-icon {
+        left: 460px;
+        top: 592px
+    }
+}
+
+@media (min-width: 1550px) {
+    #error-icon {
+        left: 460px;
+        top: 592px
+    }
+}
+
+@media (min-width: 1615px) {
+    #error-icon {
+        left: 460px;
+        top: 562px
+    }
+}
+
+@media (min-width: 1660px) {
+    #error-icon {
+        left: 460px;
+        top: 562px
+    }
+}
+
+@media (min-width: 1700px) {
+    #error-icon {
+        left: 460px;
+        top: 562px
+    }
+}
+
+@media (min-width: 2100px) {
+    #error-icon {
+        display: none;
+    }
+}
