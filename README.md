@@ -17,6 +17,7 @@ The email address is not formatted correctly.
 
 ![](src/images/screenshot.jpg)
 
+- Solution URL: (https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-solution-zZM_7xFbGL)
 - Live Site URL: (https://magical-croissant-8b7b92.netlify.app/)
 
 ### Built with
