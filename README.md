@@ -1,4 +1,4 @@
-# Base Apparel coming soon page
+# Base Apparel Coming Soon Page
 
 ![](src/images/screenshot.jpg)
 
